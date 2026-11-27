@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find Your Trajectory — Scholar Edition"
+  short_description: "Trace scholarly ideas with evidence and bilingual terms"
+  default_prompt: "Use $scholar-atlas to map a scholar’s theoretical development, explain bilingual concepts, and separate documented impact from proposals."

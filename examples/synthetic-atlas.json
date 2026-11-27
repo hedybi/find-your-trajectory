@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "scholar": {
+    "id": "person-rook",
+    "name": {
+      "en": "Elin Rook (fictional)",
+      "zh": "伊琳·鲁克（虚构）"
+    }
+  },
+  "coverage": {
+    "as_of": "2026-10-01",
+    "scope": "Synthetic demonstration: two fictional works; related activity window 2025–2026. No real scholarly evidence.",
+    "limitation": "All people, publications, institutions and passages are invented. No claim of completeness.",
+    "work_count": 2,
+    "version_count": 3
+  },
+  "sources": [
+    {
+      "id": "s-record",
+      "kind": "synthetic",
+      "access": "synthetic",
+      "url": null,
+      "checked_at": "2026-10-01",
+      "licence": "MIT; original fictional example"
+    },
+    {
+      "id": "s-foundation",
+      "kind": "synthetic",
+      "access": "synthetic",
+      "url": null,
+      "checked_at": "2026-10-01",
+      "licence": "MIT; original fictional example"
+    },
+    {
+      "id": "s-article",
+      "kind": "synthetic",
+      "access": "synthetic",
+      "url": null,
+      "checked_at": "2026-10-01",
+      "licence": "MIT; original fictional example"
+    },
+    {
+      "id": "s-profile",
+      "kind": "synthetic",
+      "access": "synthetic",
+      "url": null,
+      "checked_at": "2026-10-01",
+      "licence": "MIT; original fictional example"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e-record",
+      "source_id": "s-record",
+      "locator": "Fictional catalogue, entries 1–2",
+      "scope": "bibliographic",
+      "grade": "direct",
+      "note": "The 2021 book is separate; the catalogue explicitly links the 2024 manuscript and 2025 article as versions of one work."
+    },
+    {
+      "id": "e-foundation",
+      "source_id": "s-foundation",
+      "locator": "Invented book, chapter 2",
+      "scope": "theoretical",
+      "grade": "direct",
+      "note": "Ivo Morn proposes that a shared record allows actors to negotiate responsibility; a record does not mechanically determine decisions."
+    },
+    {
+      "id": "e-citation",
+      "source_id": "s-article",
+      "locator": "Invented article, section 2 and references",
+      "scope": "citation",
+      "grade": "direct",
+      "note": "The article explicitly cites Morn’s fictional 2021 book."
+    },
+    {
+      "id": "e-mechanism",
+      "source_id": "s-article",
+      "locator": "Invented article, section 4",
+      "scope": "theoretical",
+      "grade": "direct",
+      "note": "Rook proposes a contested-entry mechanism: recording an exception makes responsibility negotiable. The author limits this to two observed settings."
+    },
+    {
+      "id": "e-bio",
+      "source_id": "s-profile",
+      "locator": "Fictional official profile, appointment",
+      "scope": "biographical",
+      "grade": "direct",
+      "note": "Tavi Reed is a researcher at the fictional Northlake Centre."
+    },
+    {
+      "id": "e-activity",
+      "source_id": "s-profile",
+      "locator": "Fictional official profile, dated project entry",
+      "scope": "activity",
+      "grade": "direct",
+      "note": "The fictional profile announces Reed’s 2026-03-12 project studying maintenance records."
+    }
+  ],
+  "works": [
+    {
+      "id": "w-foundation",
+      "title": "Shared records and negotiated responsibility (fictional)",
+      "author_names": [
+        "Ivo Morn (fictional)"
+      ],
+      "year": 2021,
+      "evidence_refs": [
+        "e-record"
+      ],
+      "identity_status": "resolved",
+      "versions": [
+        {
+          "id": "v-book",
+          "kind": "book",
+          "date": "2021-05-01",
+          "doi": null,
+          "evidence_refs": [
+            "e-record"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w-rook",
+      "title": "Contested entries in local maintenance (fictional)",
+      "author_names": [
+        "Elin Rook (fictional)"
+      ],
+      "year": 2025,
+      "evidence_refs": [
+        "e-record"
+      ],
+      "identity_status": "resolved",
+      "identity_note": "The fictional catalogue explicitly identifies the manuscript and article as versions of the same work.",
+      "identity_evidence_refs": [
+        "e-record"
+      ],
+      "versions": [
+        {
+          "id": "v-manuscript",
+          "kind": "manuscript",
+          "date": "2024-08-01",
+          "doi": null,
+          "evidence_refs": [
+            "e-record"
+          ]
+        },
+        {
+          "id": "v-article",
+          "kind": "version_of_record",
+          "date": "2025-02-01",
+          "doi": null,
+          "evidence_refs": [
+            "e-record"
+          ]
+        }
+      ]
+    }
+  ],
+  "theories": [
+    {
+      "id": "t-record",
+      "label": {
+        "en": "Negotiated records (fictional)",
+        "zh": "协商性记录（虚构）"
+      },
+      "discipline": {
+        "en": "Organizational studies",
+        "zh": "组织研究"
+      },
+      "authors": [
+        "Ivo Morn (fictional)"
+      ],
+      "year": 2021,
+      "proposition": {
+        "en": "Records can make responsibility negotiable.",
+        "zh": "记录可以使责任成为协商对象。"
+      },
+      "mechanism": {
+        "en": "A shared entry gives participants a common object for contesting a decision.",
+        "zh": "共享条目为参与者提供质疑决定的共同对象。"
+      },
+      "misreading": {
+        "en": "A record does not automatically coordinate everyone.",
+        "zh": "记录不会自动使所有人协调一致。"
+      },
+      "evidence_refs": [
+        "e-foundation"
+      ]
+    },
+    {
+      "id": "t-entry",
+      "label": {
+        "en": "Contested entry (fictional)",
+        "zh": "争议条目（虚构）"
+      },
+      "discipline": {
+        "en": "Organizational studies",
+        "zh": "组织研究"
+      },
+      "authors": [
+        "Elin Rook (fictional)"
+      ],
+      "year": 2025,
+      "proposition": {
+        "en": "Recording an exception can reopen responsibility negotiations.",
+        "zh": "记下例外可能重新开启责任协商。"
+      },
+      "mechanism": {
+        "en": "An exception becomes visible, participants contest it, and roles may be renegotiated.",
+        "zh": "例外可见后，参与者提出异议，责任分工可能被重新协商。"
+      },
+      "misreading": {
+        "en": "The mechanism is proposed for two sites, not universal.",
+        "zh": "该机制针对两个场所提出，不能直接推广为普遍规律。"
+      },
+      "evidence_refs": [
+        "e-mechanism"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "id": "term-record",
+      "theory_id": "t-record",
+      "term": {
+        "en": "Shared record",
+        "zh": "共享记录"
+      },
+      "definition": {
+        "en": "A durable entry accessible to multiple participants and used in joint decisions.",
+        "zh": "多名参与者能访问并用于共同决策的持久条目。"
+      },
+      "example": {
+        "en": "Illustration: a repair log lets two teams discuss who should respond.",
+        "zh": "示例：维修日志让两个团队讨论由谁处理。"
+      },
+      "evidence_refs": [
+        "e-foundation"
+      ]
+    },
+    {
+      "id": "term-entry",
+      "theory_id": "t-entry",
+      "term": {
+        "en": "Contested entry",
+        "zh": "争议条目"
+      },
+      "definition": {
+        "en": "An entry whose classification or assigned responsibility is challenged.",
+        "zh": "其分类或责任归属受到质疑的记录条目。"
+      },
+      "example": {
+        "en": "Illustration: a team challenges the owner assigned to an unusual repair.",
+        "zh": "示例：团队质疑一项特殊维修的责任归属。"
+      },
+      "evidence_refs": [
+        "e-mechanism"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-cites",
+      "source": "w-rook",
+      "target": "w-foundation",
+      "type": "direct_citation",
+      "basis": "explicit",
+      "label": {
+        "en": "Cites",
+        "zh": "引用"
+      },
+      "evidence_refs": [
+        "e-citation"
+      ]
+    },
+    {
+      "id": "edge-uses",
+      "source": "t-entry",
+      "target": "w-rook",
+      "type": "application",
+      "basis": "explicit",
+      "label": {
+        "en": "Proposed and examined in this article",
+        "zh": "在本文提出并考察"
+      },
+      "evidence_refs": [
+        "e-mechanism"
+      ]
+    },
+    {
+      "id": "edge-compares",
+      "source": "t-record",
+      "target": "t-entry",
+      "type": "comparison",
+      "basis": "inferred",
+      "label": {
+        "en": "Interpretive comparison: from a shared object to a contested entry",
+        "zh": "解读性比较：从共同对象到争议条目"
+      },
+      "evidence_refs": [
+        "e-foundation",
+        "e-mechanism"
+      ]
+    }
+  ],
+  "contributions": [
+    {
+      "id": "c-rook",
+      "work_id": "w-rook",
+      "kind": "concept_proposal",
+      "status": "evidenced",
+      "claim": {
+        "en": "The author proposes contested entry as a bounded mechanism; wider novelty is not assessed.",
+        "zh": "作者提出有适用边界的争议条目机制；此处未评定其在整个领域的原创性。"
+      },
+      "evidence_refs": [
+        "e-mechanism"
+      ]
+    }
+  ],
+  "related_scholars": [
+    {
+      "id": "person-reed",
+      "name": {
+        "en": "Tavi Reed (fictional)",
+        "zh": "塔维·里德（虚构）"
+      },
+      "affiliation": "Northlake Centre (fictional)",
+      "activity": "2026-03-12 maintenance-records project (fictional)",
+      "activity_date": "2026-03-12",
+      "as_of": "2026-10-01",
+      "relation": {
+        "en": "Analyst comparison: a shared research question about maintenance records, not documented collaboration.",
+        "zh": "导览者比较：共同关注维修记录问题，未声称已经合作。"
+      },
+      "evidence_refs": [
+        "e-bio",
+        "e-activity"
+      ]
+    }
+  ],
+  "impact_claims": [
+    {
+      "id": "impact-proposal",
+      "label": {
+        "en": "Proposal: test whether a repair-log review helps teams negotiate exceptions.",
+        "zh": "建议：测试维修日志复核能否帮助团队协商例外情况。"
+      },
+      "status": "proposal",
+      "relation": "proposal",
+      "evidence_refs": [
+        "e-mechanism"
+      ],
+      "next_step": "Identify willing participants and agree a study protocol; no collaboration or outcome is documented."
+    }
+  ]
+}
